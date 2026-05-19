@@ -199,31 +199,22 @@ export function RegistrationForm() {
             <div className="mb-6 flex h-24 w-24 items-center justify-center rounded-full bg-blue-50 text-[#00458b]">
               <CheckCircle2 className="h-12 w-12" />
             </div>
-            <h2 className="mb-4 text-3xl font-extrabold text-gray-900 tracking-tight">Cadastro Quase Concluído!</h2>
+            <h2 className="mb-4 text-3xl font-extrabold text-gray-900 tracking-tight">Cadastro Recebido!</h2>
             <div className="space-y-4 mb-8">
               <p className="text-lg font-medium text-gray-700">
-                Falta apenas mais um passo para confirmar o seu cadastro.
+                Agradecemos o seu interesse e a confiança em nossos serviços.
               </p>
               <p className="text-base text-gray-500 max-w-md mx-auto leading-relaxed">
-                Para confirmar corretamente o seu registro e começar a acompanhar as novidades e ofertas exclusivas, <strong>é obrigatório baixar e instalar o nosso aplicativo.</strong><br /><br />
-                Clique no botão abaixo para fazer o download e concluir o seu cadastro!
+                Dentro de instantes, você receberá um contato nosso com o link exclusivo para <strong>baixar e instalar o nosso aplicativo.</strong><br /><br />
+                O seu cadastro só será confirmado após a instalação do app. Fique de olho no seu celular e na sua caixa de spam!
               </p>
             </div>
-            <div className="flex flex-col gap-3 w-full max-w-sm">
-              <a
-                href="/app/"
-                className="group relative flex w-full items-center justify-center gap-2 overflow-hidden rounded-xl bg-[#00458b] px-8 py-4 text-sm font-bold text-white transition-all hover:bg-blue-800 hover:shadow-lg active:scale-95"
-              >
-                <Download className="h-5 w-5" />
-                <span>Baixar Aplicativo</span>
-              </a>
-              <button
-                onClick={() => setIsSuccess(false)}
-                className="w-full rounded-xl border border-gray-200 px-8 py-4 text-sm font-bold text-gray-600 transition-all hover:bg-gray-50 hover:shadow-md active:scale-95"
-              >
-                Realizar novo cadastro
-              </button>
-            </div>
+            <button
+              onClick={() => setIsSuccess(false)}
+              className="rounded-xl border border-gray-200 px-8 py-4 text-sm font-bold text-gray-600 transition-all hover:bg-gray-50 hover:shadow-md active:scale-95"
+            >
+              Realizar novo cadastro
+            </button>
           </motion.div>
         )}
       </AnimatePresence>
