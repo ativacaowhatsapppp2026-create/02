@@ -1,0 +1,6 @@
+{
+  "name": "Barigui Ofertas - Cadastro VIP",
+  "description": "Portal de cadastro exclusivo para ofertas e promoções do Grupo Barigui. Receba alertas de seminovos e promoções diretamente no seu app.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
