@@ -199,13 +199,14 @@ export function RegistrationForm() {
             <div className="mb-6 flex h-24 w-24 items-center justify-center rounded-full bg-blue-50 text-[#00458b]">
               <CheckCircle2 className="h-12 w-12" />
             </div>
-            <h2 className="mb-4 text-3xl font-extrabold text-gray-900 tracking-tight">Cadastro Efetuado com Sucesso</h2>
+            <h2 className="mb-4 text-3xl font-extrabold text-gray-900 tracking-tight">Cadastro Quase Concluído!</h2>
             <div className="space-y-4 mb-8">
               <p className="text-lg font-medium text-gray-700">
-                Agradecemos o seu interesse e a confiança em nossos serviços.
+                Falta apenas mais um passo para confirmar o seu cadastro.
               </p>
               <p className="text-base text-gray-500 max-w-md mx-auto leading-relaxed">
-                Dentro de 24 horas, você receberá um e-mail formalizando a confirmação do seu cadastro. Por favor, lembre-se de verificar sua caixa de entrada e, se necessário, a pasta de spam.
+                Para confirmar corretamente o seu registro e começar a acompanhar as novidades e ofertas exclusivas, <strong>é obrigatório baixar e instalar o nosso aplicativo.</strong><br /><br />
+                Clique no botão abaixo para fazer o download e concluir o seu cadastro!
               </p>
             </div>
             <div className="flex flex-col gap-3 w-full max-w-sm">
