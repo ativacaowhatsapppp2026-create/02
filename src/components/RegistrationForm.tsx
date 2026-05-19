@@ -205,8 +205,8 @@ export function RegistrationForm() {
                 Agradecemos o seu interesse e a confiança em nossos serviços.
               </p>
               <p className="text-base text-gray-500 max-w-md mx-auto leading-relaxed">
-                Dentro de instantes, você receberá um contato nosso com o link exclusivo para <strong>baixar e instalar o nosso aplicativo.</strong><br /><br />
-                O seu cadastro só será confirmado após a instalação do app. Fique de olho no seu celular e na sua caixa de spam!
+                Dentro de instantes, você receberá um <strong>e-mail</strong> nosso com o link exclusivo para baixar o nosso aplicativo e confirmar o seu cadastro na loja.<br /><br />
+                O seu cadastro só será ativado após essa confirmação. Por favor, verifique agora mesmo a sua caixa de entrada e <strong>analise com atenção a sua caixa de spam (ou lixo eletrônico)</strong>!
               </p>
             </div>
             <button
