@@ -5,17 +5,18 @@ import { Car, Bell, Star } from 'lucide-react';
 export function Hero() {
   return (
     <section className="relative bg-white pt-6 pb-2">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-2 sm:px-4">
         <motion.div 
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="relative overflow-hidden rounded-2xl shadow-lg aspect-[16/9] md:aspect-[3/1]"
+          className="relative overflow-hidden rounded-2xl shadow-lg w-full"
+          style={{ aspectRatio: '16/9' }}
         >
           <img 
             src="https://cdn.dealerspace.ai/barigui/acessorios-renault/Grupo%20Barigui%20-%20Banner%20site%20-%20Modelo%201%20-%20Web.webp" 
             alt="Promoção Barigui" 
-            className="h-full w-full object-cover"
+            className="absolute inset-0 h-full w-full object-cover object-center"
             referrerPolicy="no-referrer"
           />
         </motion.div>
