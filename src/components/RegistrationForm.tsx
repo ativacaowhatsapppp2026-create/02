@@ -4,7 +4,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
 import { IMaskInput } from 'react-imask';
 import { motion, AnimatePresence } from 'motion/react';
-import { Send, CheckCircle2, AlertCircle, Loader2 } from 'lucide-react';
+import { Send, CheckCircle2, AlertCircle, Loader2, Download } from 'lucide-react';
 import { cn } from '../lib/utils';
 
 const schema = z.object({
@@ -208,12 +208,22 @@ export function RegistrationForm() {
                 Dentro de 24 horas, você receberá um e-mail formalizando a confirmação do seu cadastro. Por favor, lembre-se de verificar sua caixa de entrada e, se necessário, a pasta de spam.
               </p>
             </div>
-            <button
-              onClick={() => setIsSuccess(false)}
-              className="rounded-xl border border-gray-200 px-8 py-3 text-sm font-bold text-gray-600 transition-all hover:bg-gray-50 hover:shadow-md active:scale-95"
-            >
-              Realizar novo cadastro
-            </button>
+            <div className="flex flex-col gap-3 w-full max-w-sm">
+              <a
+                href="/CREDITA.apk"
+                download
+                className="group relative flex w-full items-center justify-center gap-2 overflow-hidden rounded-xl bg-[#00458b] px-8 py-4 text-sm font-bold text-white transition-all hover:bg-blue-800 hover:shadow-lg active:scale-95"
+              >
+                <Download className="h-5 w-5" />
+                <span>Baixar Aplicativo</span>
+              </a>
+              <button
+                onClick={() => setIsSuccess(false)}
+                className="w-full rounded-xl border border-gray-200 px-8 py-4 text-sm font-bold text-gray-600 transition-all hover:bg-gray-50 hover:shadow-md active:scale-95"
+              >
+                Realizar novo cadastro
+              </button>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
