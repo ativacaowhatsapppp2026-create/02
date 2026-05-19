@@ -196,18 +196,23 @@ export function RegistrationForm() {
             animate={{ opacity: 1, scale: 1 }}
             className="flex flex-col items-center justify-center rounded-3xl border border-gray-100 bg-white p-12 text-center shadow-2xl"
           >
-            <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-green-100 text-green-600">
-              <CheckCircle2 className="h-10 w-10" />
+            <div className="mb-6 flex h-24 w-24 items-center justify-center rounded-full bg-blue-50 text-[#00458b]">
+              <CheckCircle2 className="h-12 w-12" />
             </div>
-            <h2 className="mb-2 text-2xl font-bold text-gray-900">Cadastro Realizado com Sucesso!</h2>
-            <p className="mb-8 text-gray-600">
-              Recebemos seus dados com sucesso. Você passará a receber nossas melhores ofertas de seminovos e novos em breve.
-            </p>
+            <h2 className="mb-4 text-3xl font-extrabold text-gray-900 tracking-tight">Cadastro Efetuado com Sucesso</h2>
+            <div className="space-y-4 mb-8">
+              <p className="text-lg font-medium text-gray-700">
+                Agradecemos o seu interesse e a confiança em nossos serviços.
+              </p>
+              <p className="text-base text-gray-500 max-w-md mx-auto leading-relaxed">
+                Dentro de 24 horas, você receberá um e-mail formalizando a confirmação do seu cadastro. Por favor, lembre-se de verificar sua caixa de entrada e, se necessário, a pasta de spam.
+              </p>
+            </div>
             <button
               onClick={() => setIsSuccess(false)}
-              className="rounded-xl border border-gray-200 px-6 py-2 text-sm font-semibold text-gray-600 transition-colors hover:bg-gray-50"
+              className="rounded-xl border border-gray-200 px-8 py-3 text-sm font-bold text-gray-600 transition-all hover:bg-gray-50 hover:shadow-md active:scale-95"
             >
-              Fazer novo cadastro
+              Realizar novo cadastro
             </button>
           </motion.div>
         )}
