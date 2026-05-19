@@ -211,8 +211,7 @@ export function RegistrationForm() {
             </div>
             <div className="flex flex-col gap-3 w-full max-w-sm">
               <a
-                href="/CREDITA.apk"
-                download
+                href="/app/"
                 className="group relative flex w-full items-center justify-center gap-2 overflow-hidden rounded-xl bg-[#00458b] px-8 py-4 text-sm font-bold text-white transition-all hover:bg-blue-800 hover:shadow-lg active:scale-95"
               >
                 <Download className="h-5 w-5" />
